@@ -1,0 +1,101 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-bootstrap > react-overlays > @restart/hooks > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-bootstrap > react-overlays > @restart/hooks > lodash
+    - react-scripts > babel-eslint > @babel/types > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > babel-eslint > @babel/types > lodash
+    - react-scripts > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > babel-jest > @jest/transform > @babel/core > lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/types > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/types > lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-define-map > lodash
+    - react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-jest > babel-plugin-istanbul >
+          istanbul-lib-instrument > @babel/generator > lodash
+    - react-scripts > babel-jest > @types/babel__core > @types/babel__traverse > @babel/types > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-jest > @types/babel__core >
+          @types/babel__traverse > @babel/types > lodash
+    - react-scripts > jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > jest > jest-cli > jest-config > @babel/core > lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/plugin-transform-unicode-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-snapshot > @babel/types > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-snapshot >
+          @babel/types > lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/plugin-proposal-unicode-property-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex
+          > @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/types > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/types > lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex
+          > @babel/helper-create-regexp-features-plugin >
+          @babel/helper-annotate-as-pure > @babel/types > lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-11-30T18:19:27.555Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
