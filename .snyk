@@ -13,3 +13,11 @@ patch:
           @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
           @babel/helper-function-name > @babel/helper-get-function-arity >
           @babel/types > lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2026-01-31T07:18:00.483Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex
+          > @babel/helper-create-regexp-features-plugin >
+          @babel/helper-annotate-as-pure > @babel/types > lodash
